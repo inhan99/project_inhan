@@ -1,0 +1,204 @@
+.board-wrapper {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #f5f5f5; // 전체 배경
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  position: relative;
+
+  h2 {
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .write-button {
+    position: absolute;
+    margin-top: 25px;
+    top: 20px;
+    right: 20px;
+    padding: 8px 14px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    cursor: pointer;
+
+    &:hover {
+      background-color: #45a049;
+    }
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: #ffffff; // 리스트 배경 (전체보다 살짝 밝음)
+    border-radius: 10px;
+    padding: 10px;
+  }
+
+  .post-item {
+    position: relative; // 부모 요소를 relative로 설정해야 자식 absolute 위치 잡힘
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 12px;
+    margin-bottom: 12px;
+    background-color: #fdfdfd;
+
+    .post-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-bottom: 8px;
+      flex-wrap: wrap;
+
+      .info {
+        display: flex;
+        align-items: flex-start;
+        gap: 16px;
+        cursor: pointer;
+
+        img {
+          width: 60px;
+          height: 90px;
+          object-fit: cover;
+          border-radius: 6px;
+          flex-shrink: 0;
+        }
+
+        .book-info {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          gap: 4px;
+
+          .title {
+            max-width: 600px;
+            font-size: 1.1rem;
+            font-weight: bold;
+            color: #222;
+          }
+
+          .author {
+            font-size: 0.95rem;
+            color: #555;
+          }
+          .publisher {
+            font-size: 0.95rem;
+            color: #555;
+          }
+        }
+      }
+      .button-group {
+        position: absolute;
+        display: flex;
+        justify-content: flex-end;
+        top: 10px;
+        right: 10px;
+        gap: 8px; // 버튼 간 간격
+        flex-shrink: 0; // 줄바꿈 방지
+        margin-left: auto;
+      }
+      button {
+        margin-left: 8px;
+        padding: 4px 10px;
+        font-size: 0.8rem;
+        border-radius: 4px;
+        cursor: pointer;
+        white-space: nowrap; // 줄바꿈 방지
+
+        &.edit-button {
+          background-color: #2196f3;
+          color: white;
+          &:hover {
+            background-color: #1976d2;
+          }
+        }
+
+        &.delete-button {
+          background-color: #f44336;
+          color: white;
+
+          &:hover {
+            background-color: #d32f2f;
+          }
+        }
+
+        &.save-button {
+          background-color: #4caf50;
+          color: white;
+
+          &:hover {
+            background-color: #388e3c;
+          }
+        }
+
+        &.cancel-button {
+          background-color: #9e9e9e;
+          color: white;
+
+          &:hover {
+            background-color: #757575;
+          }
+        }
+      }
+    }
+    .post-date {
+      padding-bottom: 10px;
+      border-bottom: 1px solid #ddd;
+    }
+    .content {
+      font-size: 1rem;
+
+      textarea {
+        width: 100%;
+        height: 80px;
+        padding: 8px;
+        border-radius: 6px;
+        border: 1px solid #ccc;
+        resize: vertical;
+        font-size: 1rem;
+      }
+    }
+  }
+
+  .loader {
+    text-align: center;
+    padding: 20px;
+    color: #888;
+  }
+
+  .no-posts {
+    padding: 40px 20px;
+    text-align: center;
+    color: #888;
+    font-size: 1.2rem;
+  }
+  .home-button {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    padding: 8px 16px;
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+
+    &:hover {
+      background-color: #357ab8;
+      transform: translateY(-2px);
+    }
+
+    &:active {
+      transform: translateY(0);
+    }
+  }
+}

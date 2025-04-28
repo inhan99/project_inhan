@@ -1,0 +1,68 @@
+.book-search-wrapper {
+  margin-bottom: 1rem;
+
+  input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 8px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    outline: none;
+
+    &:focus {
+      border-color: #22b8cf;
+    }
+  }
+
+  button {
+    padding: 8px 12px;
+    font-size: 1rem;
+    background-color: #22b8cf;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+
+    &:hover {
+      background-color: #1ca1b6;
+    }
+  }
+
+  .book-list {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    max-height: 300px;
+    overflow-y: auto;
+    margin-top: 12px;
+  }
+
+  .book-card {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+
+    img {
+      width: 50px;
+      height: 75px;
+      object-fit: cover;
+      border-radius: 4px;
+    }
+
+    &:hover {
+      background-color: #f2f2f2;
+    }
+
+    div {
+      font-size: 1rem;
+      font-weight: 500;
+      color: #333;
+    }
+  }
+}

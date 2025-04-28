@@ -1,0 +1,152 @@
+.detail-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 24px;
+  max-width: 800px;
+  margin: 70px auto 0 auto;
+  background-color: #fff;
+  border-radius: 30px;
+  position: relative;
+}
+
+.title {
+  text-align: center;
+  font-size: 40px;
+}
+
+.home-button {
+  position: absolute;
+  left: 16px;
+  padding: 8px 16px;
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+
+  &:hover {
+    background-color: #357ab8;
+    transform: translateY(-2px);
+  }
+}
+
+.book-info {
+  display: flex;
+  gap: 24px;
+
+  img {
+    width: 140px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 4px;
+  }
+
+  .info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    h2 {
+      font-size: 24px;
+      margin-bottom: 12px;
+    }
+
+    p {
+      margin: 6px 0;
+      color: #444;
+      font-size: 14px;
+    }
+  }
+}
+
+.stats-section {
+  .stat-title {
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #333;
+  }
+
+  .stat-list {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    font-size: 14px;
+    color: #333;
+
+    div {
+      padding: 6px;
+      background-color: #f4f4f4;
+      border-radius: 5px;
+    }
+  }
+}
+
+.review-section {
+  border-top: 1px solid #ddd;
+  padding-top: 16px;
+
+  h3 {
+    margin-bottom: 12px;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 12px;
+
+    li {
+      font-size: 14px;
+      margin-bottom: 6px;
+
+      span {
+        font-size: 12px;
+        color: #777;
+        margin-left: 8px;
+      }
+    }
+  }
+
+  input {
+    width: 100%;
+    padding: 8px;
+    font-size: 14px;
+    margin-bottom: 8px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+  }
+
+  button {
+    padding: 6px 12px;
+    font-size: 14px;
+    border: none;
+    background-color: #4a90e2;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+
+    &:hover {
+      background-color: #357bd8;
+    }
+
+    &.edit-btn {
+      transform: scale(0.85);
+      font-size: 12px;
+      padding: 4px 10px;
+    }
+    &.cancle-btn {
+      margin-left: 4px;
+    }
+  }
+}
+
+.book-description {
+  margin-top: 20px;
+  line-height: 1.6;
+  color: #444;
+}

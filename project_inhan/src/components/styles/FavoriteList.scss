@@ -1,0 +1,36 @@
+.empty-state-wrapper {
+  text-align: center;
+}
+.favorite-list-wrapper {
+  padding: 2rem;
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  .favorite-list-header {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 1rem;
+
+    .delete-button {
+      padding: 0.5rem 1rem;
+      background-color: #ff6b6b;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background-color 0.2s ease;
+
+      &:hover {
+        background-color: #fa5252;
+      }
+
+      &:disabled {
+        background-color: #ccc;
+        cursor: not-allowed;
+      }
+    }
+  }
+
+  .favorite-item-container {
+    margin-bottom: 1rem;
+  }
+}
