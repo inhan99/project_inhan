@@ -41,13 +41,13 @@
 - 책 상세페이지(BookDetail)
   ![Image](https://github.com/user-attachments/assets/69baca6c-d26d-4264-bf04-6831cdd46b27)
 
--즐겨찾기(Favorites)
+- 즐겨찾기(Favorites)
 ![Image](https://github.com/user-attachments/assets/41e05a33-7b2b-43ea-9c37-8b59f19d6122)
 
--게시판(Board)
+- 게시판(Board)
 ![Image](https://github.com/user-attachments/assets/4b497667-58a0-4d23-9444-4365a785537a)
 
--게시판 작성하기(BoardWrite)
+- 게시판 작성하기(BoardWrite)
 ![Image](https://github.com/user-attachments/assets/b6cabe41-38a0-4164-8e97-84e840da16e5)
 
 ---
