@@ -34,19 +34,28 @@
 
 ## 📸 구현 화면
 
-- 🔍 메인 페이지에서 자기소개 및 기술 스택 소개
-- 📝 프로젝트 소개 페이지 및 GitHub 연결
-- 💬 문의 폼 및 이메일 연동
+- 메인(Home)
+  ![Image](https://github.com/user-attachments/assets/50705601-118c-4a1a-b34d-055ea7f82e93)
+
+- 책 상세페이지(BookDetail)
+  ![Image](https://github.com/user-attachments/assets/69baca6c-d26d-4264-bf04-6831cdd46b27)
+
+-즐겨찾기(Favorites)
+![Image](https://github.com/user-attachments/assets/41e05a33-7b2b-43ea-9c37-8b59f19d6122)
+
+-게시판(Board)
+![Image](https://github.com/user-attachments/assets/4b497667-58a0-4d23-9444-4365a785537a)
+
+-게시판 작성하기(BoardWrite)
+![Image](https://github.com/user-attachments/assets/b6cabe41-38a0-4164-8e97-84e840da16e5)
 
 ---
 
 ## 🛠 사용 기술 스택
 
-| 구분       | 기술                                      |
-| ---------- | ----------------------------------------- |
-| Frontend   | React, React Router, Styled Components    |
-| Deployment | Vercel / Netlify                          |
-| ETC        | EmailJS, GitHub API, Figma 디자인 적용 등 |
+| 구분     | 기술                                                            |
+| -------- | --------------------------------------------------------------- |
+| Frontend | React, React Router DOM, React Icons, Lucide React, Axios, Sass |
 
 ---
 
