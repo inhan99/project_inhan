@@ -51,16 +51,13 @@
 ![Image](https://github.com/user-attachments/assets/b6cabe41-38a0-4164-8e97-84e840da16e5)
 
 ---
----
 
 ## 🛠 사용 기술 스택
 
 | 구분       | 기술                                      |
 | ---------- | ----------------------------------------- |
-| Frontend   | React, React Router, Styled Components    |
-| Deployment | Vercel / Netlify                          |
-| ETC        | EmailJS, GitHub API, Figma 디자인 적용 등 |
+| Frontend   | React, React Router DOM, React Icons, Lucide React, Axios, Sass   |
+
 
 ---
 
-## 🧱 폴더 구조
