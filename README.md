@@ -28,8 +28,7 @@
 
 ## 🔧 데이터 흐름도
 
-![Image](https://github.com/user-attachments/assets/ed5d3aff-b9b9-446d-8ab4-0defb0542ef4)
-
+![Image](https://github.com/user-attachments/assets/e4d353b1-6520-4541-9356-a8b5731dc1ca)
 ---
 
 ## 📸 구현 화면
